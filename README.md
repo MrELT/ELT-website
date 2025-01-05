@@ -1,0 +1,1 @@
+This is my personal website. In this website you can find informations about me and my works, communication addresses, and more. This website has an ongoing development, I try to make it best with my all knowledge, but if you see any problems please let me know. Thanks. 
