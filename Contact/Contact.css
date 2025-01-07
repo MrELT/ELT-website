@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.info_page {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; /* Allows child elements to position themselves over it */
+    width: 1526px; /* Full width */ /* Full viewport height */
+    background-image: url('Contact-Pictures/Stata.jpg'); /* Replace with your image URL */
+    background-size: cover; /* Ensures the image covers the entire area */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.portfolio-container{
+    display: flex;
+    align-items: center;
+    width: 1321px;
+    height: 486px;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 5;
+    backdrop-filter: blur(2px);
+    padding: 50px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.background {
+    display: relative;
+    margin-top: 70px;
+    margin-bottom: -5px;
+    z-index: 0;
+}
+
+.profile-container {
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+    box-shadow: 10px, 10px, 10px, rgba(0, 0, 0, 1);
+}
+
+.profile {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.notes {
+    width: 50%;
+    padding: 50px;
+    padding-top: 0;
+    margin-top: 105px;
+    font-family: "Open Sans", sans-serif;
+    background-color: transparent;
+    backdrop-filter: blur(2px);
+}
+
+.note-title {
+    padding-top: 0;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.note {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: auto;
+    margin-right: -150px;
+}
+
+.title {
+    font-family: "Open Sans", sans-serif;
+    font-size: 50px;
+    margin-top: 0;
+    margin-left: 50px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.Content {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 10px;
+    padding-left: 50px;
+    text-overflow: ellipsis;
+    overflow-wrap: break-word;
+}
+
+.text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+    margin-top: 0;
+    font-weight: 500;
+    color: white;
+    padding-right: 50px;
+}
+
+.Content button {
+    background-color: transparent;
+    backdrop-filter: blur(2px);
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    border: none;
+}
+
+.Content button:hover {
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.5);
+}
+
+.Content i {
+    margin: 20px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 30px;
+}
+
+.Content p {
+    margin: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.75);
+}
