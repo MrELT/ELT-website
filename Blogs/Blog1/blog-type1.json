@@ -1,0 +1,67 @@
+[
+    {
+        "id": "1",
+        "title": "BILLIONS OF STARS ARE SHINING",
+        "image": "/assets/blog1.jpg",
+        "paragraphs": [
+            "On a clear, moonless night, the sky becomes a canvas adorned with countless stars, each a glowing pinprick in the vastness of space. As we gaze upward, it's humbling to realize that these twinkling lights represent just a fraction of the stars in our galaxy. The Milky Way alone contains over 100 billion stars, and beyond that, countless galaxies stretch across the observable universe.",
+            "Each star tells a story of cosmic history. Some burn brightly, while others remain faint whispers of light, many of them billions of years old. These celestial bodies are more than mere specks in the sky; they are the furnaces of creation, forging elements essential to life.",
+            "The sheer number of stars inspires awe and curiosity. How many harbor planets like Earth? What secrets lie within their light? Stargazing reminds us of our place in the universe—a tiny, yet extraordinary part of an endless cosmic symphony.",
+            "So next time you find yourself under a starlit sky, take a moment to wonder. Amid the countless stars, perhaps the universe is reflecting its infinite possibilities back to you." 
+        ],
+        "date": "January 1, 2025", 
+        "tags": []  
+    },
+    {
+        "id": "2",
+        "title": "WONDERS OF THE NIGHT SKY",
+        "image": "/assets/blog2.jpg",
+        "paragraphs": [
+            "On a clear, moonless night, the sky becomes a canvas adorned with countless stars, each a glowing pinprick in the vastness of space. As we gaze upward, it's humbling to realize that these twinkling lights represent just a fraction of the stars in our galaxy. The Milky Way alone contains over 100 billion stars, and beyond that, countless galaxies stretch across the observable universe.",
+            "Each star tells a story of cosmic history. Some burn brightly, while others remain faint whispers of light, many of them billions of years old. These celestial bodies are more than mere specks in the sky; they are the furnaces of creation, forging elements essential to life.",
+            "The sheer number of stars inspires awe and curiosity. How many harbor planets like Earth? What secrets lie within their light? Stargazing reminds us of our place in the universe—a tiny, yet extraordinary part of an endless cosmic symphony.",
+            "So next time you find yourself under a starlit sky, take a moment to wonder. Amid the countless stars, perhaps the universe is reflecting its infinite possibilities back to you."
+        ],
+        "date": "January 2, 2025",
+        "tags": []
+    },
+    {
+        "id": "3",
+        "title": "WONDERS OF THE NIGHT",
+        "image": "/assets/blog2.jpg",
+        "paragraphs": [
+            "On a clear, moonless night, the sky becomes a canvas adorned with countless stars, each a glowing pinprick in the vastness of space. As we gaze upward, it's humbling to realize that these twinkling lights represent just a fraction of the stars in our galaxy. The Milky Way alone contains over 100 billion stars, and beyond that, countless galaxies stretch across the observable universe.",
+            "Each star tells a story of cosmic history. Some burn brightly, while others remain faint whispers of light, many of them billions of years old. These celestial bodies are more than mere specks in the sky; they are the furnaces of creation, forging elements essential to life.",
+            "The sheer number of stars inspires awe and curiosity. How many harbor planets like Earth? What secrets lie within their light? Stargazing reminds us of our place in the universe—a tiny, yet extraordinary part of an endless cosmic symphony.",
+            "So next time you find yourself under a starlit sky, take a moment to wonder. Amid the countless stars, perhaps the universe is reflecting its infinite possibilities back to you."
+        ],
+        "date": "January 2, 2025",
+        "tags": []
+    },
+    {
+        "id": "4",
+        "title": "WONDERS OF THE SKY",
+        "image": "/assets/blog2.jpg",
+        "paragraphs": [
+            "On a clear, moonless night, the sky becomes a canvas adorned with countless stars, each a glowing pinprick in the vastness of space. As we gaze upward, it's humbling to realize that these twinkling lights represent just a fraction of the stars in our galaxy. The Milky Way alone contains over 100 billion stars, and beyond that, countless galaxies stretch across the observable universe.",
+            "Each star tells a story of cosmic history. Some burn brightly, while others remain faint whispers of light, many of them billions of years old. These celestial bodies are more than mere specks in the sky; they are the furnaces of creation, forging elements essential to life.",
+            "The sheer number of stars inspires awe and curiosity. How many harbor planets like Earth? What secrets lie within their light? Stargazing reminds us of our place in the universe—a tiny, yet extraordinary part of an endless cosmic symphony.",
+            "So next time you find yourself under a starlit sky, take a moment to wonder. Amid the countless stars, perhaps the universe is reflecting its infinite possibilities back to you."
+        ],
+        "date": "January 2, 2025",
+        "tags": []
+    },
+    {
+        "id": "5",
+        "title": "WONDERS OF THE SKY",
+        "image": "/assets/blog2.jpg",
+        "paragraphs": [
+            "On a clear, moonless night, the sky becomes a canvas adorned with countless stars, each a glowing pinprick in the vastness of space. As we gaze upward, it's humbling to realize that these twinkling lights represent just a fraction of the stars in our galaxy. The Milky Way alone contains over 100 billion stars, and beyond that, countless galaxies stretch across the observable universe.",
+            "Each star tells a story of cosmic history. Some burn brightly, while others remain faint whispers of light, many of them billions of years old. These celestial bodies are more than mere specks in the sky; they are the furnaces of creation, forging elements essential to life.",
+            "The sheer number of stars inspires awe and curiosity. How many harbor planets like Earth? What secrets lie within their light? Stargazing reminds us of our place in the universe—a tiny, yet extraordinary part of an endless cosmic symphony.",
+            "So next time you find yourself under a starlit sky, take a moment to wonder. Amid the countless stars, perhaps the universe is reflecting its infinite possibilities back to you."
+        ],
+        "date": "January 2, 2025",
+        "tags": []
+    }
+]
