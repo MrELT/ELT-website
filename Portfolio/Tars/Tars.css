@@ -1,0 +1,198 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.entrance-container {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    width:100%;
+    height: 50vh;
+    background-image: url('Pictures/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-right: 4vw;
+    padding-left: 4vw;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+@media (max-width: 800px) {
+    .entrance-container {
+        flex-direction: column;
+        padding-right: 0;
+        gap: 0;
+        height: 75vh;
+    }
+
+    .image-container {
+        margin-right: 8vw;
+        width: 50%;
+        overflow: hidden;
+    }
+    
+    .text {
+        padding: 0;
+    }
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 0;
+}
+
+.image-container img {
+    height: 100%;
+    width: auto;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 50%;
+    width: 90%;
+    padding-right: 10vw;
+}
+
+.title p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: clamp(20px, 3vw, 60px);
+    font-family: "Delius", serif;
+    font-weight: 700;
+    margin: 0;
+    text-indent: 0.7em;
+}
+
+.content p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: clamp(15px, 2vw, 20px);
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 20px;
+    text-indent: 2em;
+    text-align: justify;
+}
+
+.content a {
+    text-decoration: none;
+    color: rgba(253, 253, 253, 0.9);
+    font-weight: 500;
+}
+
+.technical-container {
+    background-color: rgb(245, 245, 220); /* Light beige */
+    background-image: 
+      linear-gradient(#e0e0e0 1px, transparent 1px), /* Horizontal lines */
+      linear-gradient(90deg, #e0e0e0 1px, transparent 1px); /* Vertical lines */
+    background-size: 20px 20px; /* Adjust grid size */
+    padding-top: 20px;
+    border: 1px solid #ccc;
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.technical-title {
+    color: #2a3a5e;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-weight: 800;
+    height: fit-content;
+}
+
+.technical-title p {
+    color: rgb(42, 58, 94);
+    display: flex;
+    font-family: "Fira Mono", monospace;
+    font-weight: 800;
+    font-size: clamp(30px, 3vw, 60px);
+    height: fit-content;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.technical-details {
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+    height: 80%;
+    width: 100%;
+    padding-left: 15vw;
+    padding-right: 21px;
+}
+
+.technical-drawing {
+    display: flex;
+    width: 30vw;
+    min-width: 439px;
+}
+
+.technical-drawing img {
+    width: 100%;
+    height: fit-content;
+}
+
+.technical-table {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: fit-content;
+    width: 40%;
+    gap: 2vw;
+    margin-right: 80px;
+}
+
+.columns {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    font-family: "Fira Mono", monospace;
+    font-weight: 500;
+    font-size: clamp(10px, 1vw, 25px);
+}
+
+@media (max-width: 800px) {
+    .technical-details {
+        flex-direction: column;
+        padding-right: 21px;
+        padding-left: 5vw;
+        overflow: hidden;
+    }
+
+    .technical-table {
+        width: 60%;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .columns {
+        gap: 20px;
+        font-size: clamp(10px, 3vw, 25px);
+        justify-content: center;
+        padding-left: 100px;
+    }
+
+    .technical-drawing {
+        display: flex;
+        width: 60%;
+        min-width: 439px;
+    }
+}
+
+model-viewer {
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+}
