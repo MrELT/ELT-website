@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Official website of İsmail Efe Eltutan. Learn more about me, my projects, and my work.">
+    <meta name="keywords" content="İsmail Efe Eltutan, ELT, Portfolio, Projects, Blog, Contact">
+    <meta name="author" content="İsmail Efe Eltutan">
+    <title>ELT</title>
+    <link rel="stylesheet" href="Entrance/Entrance-Styles.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png">
+</head>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-63PQY95C2Z"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  
+  gtag('config', 'G-63PQY95C2Z');
+</script>
+
+<body>
+    <div class="background" id="entrancePage">
+        <div class="intro-text">"Hardest smile of my entire life..."</div>
+        <button class="btn" id="startBtn">Welcome</button>
+        <div class="bottom-text">"17th IOAA, Closing Ceremony, Brazil 2024"</div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+        // Check if the user language has already been set
+        const userPreferredLanguage = localStorage.getItem("preferredLanguage");
+
+        if (!userPreferredLanguage) {
+            // Detect the browser language
+            const userLang = navigator.language || navigator.userLanguage;
+
+            if (userLang.startsWith("tr")) {
+            localStorage.setItem("preferredLanguage", "tr");
+            window.location.href = "/tr/index.html"; // Redirect to Turkish version
+            } else {
+            localStorage.setItem("preferredLanguage", "en");
+            window.location.href = "/index.html"; // Redirect to English version
+            }
+        }
+        });
+        const startBtn = document.getElementById('startBtn');
+        const entrancePage = document.getElementById('entrancePage');
+        const mainContent = document.getElementById('mainContent');
+        startBtn.addEventListener('click', () => {
+            entrancePage.classList.add('fade-out');
+            setTimeout(() => {
+                entrancePage.style.display = 'none';
+                window.location.href = 'Home/home_page.html';
+            }, 1000);
+        });
+    </script>
+</body>
+</html>
