@@ -1,0 +1,215 @@
+::-webkit-scrollbar {
+    height: 10px; /* Horizontal scrollbar height */
+    width: 10px; /* Vertical scrollbar width */
+}
+
+/* Track (background of the scrollbar) */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Light gray background */
+    border-radius: 10px; /* Optional: round corners */
+}
+
+/* Thumb (scroll indicator) */
+::-webkit-scrollbar-thumb {
+    background: #888; /* Darker gray for the thumb */
+    /* Optional: round corners */
+}
+
+/* Thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Even darker gray when hovered */
+}
+
+html {
+    box-sizing: border-box;
+  }
+
+body {
+    margin-top: 90px;
+    margin: 0;
+}
+
+.right-container {
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100%;
+    margin-top: 40px;
+    width: 30%;
+    background-color: white;
+    padding-top: 70px;
+    padding-left: 30px;
+    box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.5);
+    z-index: 5;
+}
+
+.profile {
+    display: flex;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    
+}
+
+.ie {
+    color: #333333;
+    font-size: 1.98vw;
+    font-weight: 900;
+    margin: 0;
+    padding: 0; 
+}
+
+.elt {
+    color: #800000;
+    font-size: 2.45vw;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+
+.me {
+    width: 6.5vw;
+    height: auto;
+    margin-left: 15%;
+}
+
+@media (max-width: 800px) {
+    .right-container {
+        display: none;
+    }
+
+    .blog-container {
+        width: 80%;
+        padding-top: 100px;
+        padding-left: 9%;
+    }
+}
+
+.blog_name {
+    color: #333333;
+    font-family: "Charmonman", serif;
+    font-weight: 900;
+    font-size: 1.5vw;
+    text-align: center;
+    white-space: nowrap;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.date {
+    margin: 0;
+    font-size: 1.2vw;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;    
+    text-align: right;
+    padding-right: 30px;
+}
+
+.read_more {
+    margin: 0;
+    margin-top: 20px;
+    font-size: 1.2vw;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+}
+
+.more {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    margin-right: 30px;
+    gap: 20px;
+}
+
+.more_blog1, .more_blog2, .more_blog3, .more_blog4  {
+    border: none;
+    height: 40px;
+    font-weight: 900;
+    color: #333333;
+    font-family: "Charmonman", serif;
+    font-size: 1vw;
+    transition: 0.3s;
+}
+
+
+.more_blog1:hover, .more_blog2:hover, .more_blog3:hover, .more_blog4:hover {
+    background-size: cover;
+    background-position: center; 
+    color: transparent;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.5);
+    height: 10vh;
+}
+
+.more_blog1:hover {
+    background-image: url('../Bloglar-Resimler/blog2.jpg');  
+}
+.more_blog2:hover {
+    background-image: url('../Bloglar-Resimler/blog2.jpg');  
+}
+.more_blog3:hover {
+    background-image: url('../Bloglar-Resimler/blog2.jpg');  
+}
+.more_blog4:hover {
+    background-image: url('../Bloglar-Resimler/blog2.jpg');
+}
+
+
+.blog-container {
+    margin-right: 40%;
+    padding-top: 100px;
+    padding-left: 9%;
+}
+
+.title {
+    font-size: 40px;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+
+.up-container {
+    display: flex;
+    align-items: stretch; 
+    gap: 50px;
+}
+
+.up-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.text {
+    display: grid;
+    grid-template-rows: 1fr;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 20px;
+    margin-bottom: 50px;
+
+    text-indent: 40px;
+    font-size: 18px;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.blog1-1, .video {
+    width: 100%;
+    padding-left: 0px;
+}
+
+.content_blog {
+    padding: 0;
+    margin: 0;
+}
+
+.content_blog a {
+    color: #333333;
+    font-style: italic;
+    text-decoration: none;
+}
