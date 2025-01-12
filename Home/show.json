@@ -1,0 +1,45 @@
+[
+    {
+        "title": "Most Painful Smile Of My Life!",
+        "content": [
+            "I was walking through the stage and telling my self \"If you cry, if you show them that you lost, you'll lose. So smile—show everyone that you won't give up!\".",
+            "I forced the most painful smile of my life. It was a moment like a prey feigns death to survive. Just pretending... When I returned to my seat, cried a river because my worst-case scenario had come true.",    
+            "Unexpectedly, I couldn't even get a medal, even I was aiming for gold. But I'm proud to say, as Frank Sinatra said, 'I did it my way!'."
+            ],
+        "image": "Home-Pictures/Show-1.jpg"
+    },
+    {
+        "title": "Visit My YouTube Channel!",
+        "content": [
+            "This space is all about engineering, space exploration, and tech.",
+            "You’ll find:",
+            "- Engineering Projects, like drone builds and rocket designs.",
+            "- Space Exploration, with a focus on missions to Mars and the Moon.",
+            "- Tech Explainers, breaking down complex concepts into simple, engaging lessons."
+          ],
+        "image": "Home-Pictures/Show-2.png"
+    },
+    {
+        "title": "My MIT Maker Portfolio Is Ready!",
+        "content": [
+            "I made my dream come true! I applied to MIT and prepared my Maker Portfolio. The only thing missing in my application is the SAT scores. But aside from that, everything seems great.",
+            "I really thought about how I could represent myself in the portfolio video, and I'm not going to lie, I love what I created. It represents my journey, interests, projects, and future plans, transforming like a pawn to a queen in chess, symbolizing growth and achievement.",
+            "It will come soon!!"
+            ],
+        "image": "Home-Pictures/Show-3.png"
+    },
+    {
+        "title": "I've Received Your Mails, Help Is Coming!",
+        "content": [
+            "A new section will be added to the website soon, providing key resources and tips for Science Olympiad students.", 
+            "This section will include essential study materials for written, building, and lab events, test-taking strategies, study group recommendations, practice opportunities, and tips for competition day. After the event, students will also be able to reflect on their experience to improve for future competitions. Online courses, books, and websites will also be recommended to help deepen knowledge and improve preparation."],
+        "image": "Home-Pictures/Show-4.jpg"
+    },
+    {
+        "title": "See Details of TARS, Visit Portfolio > Tars",
+        "content": [
+            "TARS is an autonomous unmanned aerial vehicle I develop over two years for a competition.", 
+            "You can find more details about project, design, and building process. I should remaind you that this website has ongoing development. Thanks for your understanding."],
+        "image": "Home-Pictures/Show-5.png"
+    }
+]

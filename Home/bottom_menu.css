@@ -1,0 +1,72 @@
+.bottom-menu {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    bottom:0;
+    background-color: #333333;
+    width: 100%;
+    height: 80px;
+    z-index: 1000;
+}
+
+.button_container {
+    height: 100%;
+}
+
+.name_button, .gmail_button, .instagram_button, .youtube_button {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 0.3s all;
+}
+
+@media (max-width: 850px) {
+    .name_button, .gmail_button, .instagram_button, .youtube_button {
+        font-size: 0px;
+    }
+}
+
+
+.name_button:hover, .gmail_button:hover, .instagram_button:hover, .youtube_button:hover {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 100%;
+    background-color: #696969;
+    border: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.year {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 50px;
+    padding-left: 10px;
+}
+
+.fi-ss-envelope, .fi-brands-instagram, .fi-brands-youtube {
+    margin-top: 5px; 
+    font-size: 25px;
+}
+
+.name_button {
+    margin-left: 50px;
+}
+
+.gmail_button {
+    text-decoration: none;
+}
