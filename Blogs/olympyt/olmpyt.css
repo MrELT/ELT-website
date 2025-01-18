@@ -1,0 +1,372 @@
+::-webkit-scrollbar {
+    height: 10px; /* Horizontal scrollbar height */
+    width: 10px; /* Vertical scrollbar width */
+}
+
+/* Track (background of the scrollbar) */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Light gray background */
+    border-radius: 10px; /* Optional: round corners */
+}
+
+/* Thumb (scroll indicator) */
+::-webkit-scrollbar-thumb {
+    background: #888; /* Darker gray for the thumb */
+    /* Optional: round corners */
+}
+
+/* Thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Even darker gray when hovered */
+}
+
+html {
+    box-sizing: border-box;
+  }
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.entrance-scrolling {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 600vh;
+}
+.entrance {
+    display: flex;
+    position: sticky;
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    top: 70px;
+}
+
+.left-container, .right-container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-container {
+    flex-direction: column;
+    flex-basis: 40%;
+    padding-left: 5vw;
+    padding-top: 80px;
+    padding-right: 5vw;
+}
+
+.left-title p {
+    color: #333333;
+    margin: 0;
+    font-size: clamp(20px, 3vw, 60px);
+    font-family: "Anton", serif;
+    font-weight: 500;
+    height: fit-content;
+    margin-bottom: 20px;
+}
+
+.content-text {
+    color: #333333;
+    font-size: clamp(15px, 1vw, 30px);
+    font-family: "Roboto", serif;
+    font-weight: 400;
+}
+
+.tubitak-button {
+    background-color: transparent;
+    width: 100%;
+    border: none;
+}   
+
+.tbtk-bttn {
+    margin-top: 30px;
+    display: flex;
+    border: none;
+    background-color: #d2d2d2;
+    border-radius: 5px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: all 0.6s;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.3);
+}
+
+.tbtk-bttn p {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.tbtk-bttn:hover {
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.tbtk-bttn:hover + .image-container {
+    opacity: 1;
+}
+
+.image-container {
+    position: absolute;
+    top: 37%; 
+    left: 5%;
+    width: 100%; /* Adjust as needed */
+    height: auto; /* Adjust as needed */
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+}
+
+.image-container img{
+    width: 90%;
+    height: auto;
+}
+
+.right-container {
+    flex: 1;
+    flex-basis: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100%;
+    top: 0;
+    overflow: hidden;
+}
+
+.scrolling-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color:#333333;
+    transition: all 0.3s;
+}
+
+.scrolling-item {
+    position: absolute;
+    width: 60%;
+    height: 70%;
+    top: 10%; /* Start from the center vertically */
+    left: 50%;
+    transform: translate(-50%, 100%); /* Start below */
+    background-color: #333333;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    transition: transform 0.5s ease, opacity 0.5s ease; /* Smooth transitions */
+    filter: blur(0px);
+}
+
+.scrolling-title p {
+    font-size: clamp(15px, 2vw, 30px);
+    font-family: "Anton", serif;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.scrolling-content p {
+    font-family: "Roboto", sans-serif;
+    text-align: justify;
+}
+
+
+.program-scrolling {
+    background-color: #f0f0f0;
+    width: 100%;
+    height: 100vh;
+    overflow-y: hidden;
+    position: relative;
+}
+
+
+
+.program-container {
+    top: 600vh; /* Place it just below the entrance */
+    height: calc(100vh);
+    width: 100%;
+    background-image: url("/assets/olympyt-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+    transition: position 0.3s ease; /* Smooth transition when switching to fixed */
+}
+
+.program-title {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    background-color: #2c003e82;
+    border: none;
+    border-bottom: 5px solid #ff98ff;
+    box-shadow: 5px 5px 50px #ff2fff;
+    border-bottom-color: #ffdafe;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+}
+
+.program-title p {
+    margin: 0;
+    padding: 20px;
+    font-family: "Anton", serif;
+    font-size: clamp(20px, 2vw, 40px);
+    color: white;
+}
+
+.container {
+    overflow-x: hidden;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.grade-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+    transition: all 0.5s ease; /* Smooth transition for all transform changes */
+    gap: 5%;
+    position: relative; /* Needed for absolute positioning inside */
+}
+
+
+
+.grades {
+    width: 25%;
+    height: 60%;
+    border-radius: 12px;
+    perspective: 1000px; /* Enables 3D perspective */
+    transition: transform 0.5s ease, z-index 0.5s ease; /* Smooth transitions */
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: transform 0.6s ease;
+    transform-style: preserve-3d;
+}
+
+.grades:hover .card {
+    transform: rotateY(180deg); /* Flips the card */
+}
+
+.card-face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /* Prevents content from showing through */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.1); /* Transparent with slight blur */
+    backdrop-filter: blur(5px);
+    color: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+}
+
+.card-front {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    transform: rotateY(0deg); /* Default front-facing */
+    font-size: clamp(20px, 6vw, 60px);
+    font-family: "Anton", serif;
+}
+
+.card-front p {
+    margin: 0;
+}
+
+.card-back {
+    display: flex;
+    flex-direction: column;
+    transform: rotateY(180deg); /* Back-facing */
+    font-size: clamp(15px, 2vw, 20px);
+    font-family: "Roboto", serif;
+}
+
+.card-back div {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5vw;
+}
+
+#program-details {
+    position: absolute; /* Make sure it's positioned absolutely inside grade-container */
+    top: 0; /* Optional, adjust if needed */
+    right: 0; /* Initially off-screen to the right */
+    width: 0; /* Adjust width as needed */
+    height: 0; /* Adjust height as needed */
+    padding: 0;
+    top: 20%;
+    background-color: transparent;
+    border-radius: 5px;
+    transition: right 0.5s ease, opacity 0.3s ease, width 0.5s ease;
+    opacity: 0; /* Initially invisible */
+    border-top: 4px solid #ffdafe; /* Top pink border */
+    border-bottom: 4px solid #ffdafe; /* Bottom pink border */
+    border-left: none; /* No left border */
+    border-right: none; /* No right border */
+    box-shadow: -4px 0 8px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+#program-details p {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: calmp(15px, 2vw, 30px);
+}
+
+.program-scroll {
+    position: relative;
+    overflow: hidden; /* Hide overflow so elements can move outside the container */
+}
+
+.scrolling-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    width: 100%; /* Adjust based on your content width */
+    opacity: 1;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+
+
+.grade-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.more {
+    height: 0px;
+    width: 100%;
+}
+
